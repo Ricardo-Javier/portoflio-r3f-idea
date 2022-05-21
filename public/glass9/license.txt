@@ -1,0 +1,11 @@
+Model Information:
+* title:	In Space (male)
+* source:	https://sketchfab.com/3d-models/in-space-male-9aa6ad079e18495ea2952d7b5fc5fb2a
+* author:	Vintar (https://sketchfab.com/vintar)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "In Space (male)" (https://sketchfab.com/3d-models/in-space-male-9aa6ad079e18495ea2952d7b5fc5fb2a) by Vintar (https://sketchfab.com/vintar) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

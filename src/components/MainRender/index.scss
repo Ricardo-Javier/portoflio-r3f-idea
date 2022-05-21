@@ -1,0 +1,25 @@
+.logo-container {
+  background-size: contain;
+  
+  width: 100vw;
+  height: 100vh; 
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  opacity: 0;
+  animation: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  
+}
+
+
+
+
+div {
+  width: 100vw;
+  height: 100vh;
+}

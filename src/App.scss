@@ -1,0 +1,23 @@
+$primary-color: white;
+
+@import 'animate.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+
+@font-face {
+  font-family: 'Michroma Regular';
+  src: url('../public/Michroma-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+input,
+textarea {
+  font-family: 'Michroma Regular', sans-serif;
+}

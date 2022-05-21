@@ -1,0 +1,102 @@
+.contact-form {
+  width: 100%;
+  margin-top: 20px;
+  position: absolute;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      opacity: 0;
+      overflow: hidden;
+      display: block;
+      clear: both;
+      position: relative;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+    }
+
+    li.half {
+      width: 100%;
+      float: left;
+      clear: none;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    border: 0;
+    background: #6e45ba8e;
+    height: 50px;
+    font-size: 16px;
+    color: #79d4f9;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: 'Michroma', sans-serif;
+    
+  }
+
+  input::placeholder {
+    color: #79d4f9;
+    opacity: 1; /* Firefox */
+  }
+  textarea::placeholder {
+    color: #79d4f9;
+    opacity: 1; /* Firefox */
+  }
+
+  textarea {
+    width: 100%;
+    border: 0;
+    background: #6e45ba8e;
+    height: 30px;
+    font-size: 16px;
+    color: #79d4f9;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100px;
+    font-family: 'Michroma', sans-serif;
+  }
+
+  .flat-button {
+    color: #79d4f9;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #79d4f9;
+    float: left;
+    border-radius: 4px;
+    background: 0 0;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    font-family: 'Michroma', sans-serif;
+  }
+}
+
+
+
+.leaflet-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
+}
+
+
+
+  
