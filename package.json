@@ -2,6 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.17.5"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
