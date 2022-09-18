@@ -34,22 +34,7 @@ const About = () => {
   }
 
 
-  const Energy = () => {
-    const gltf = useLoader(GLTFLoader, "./energy_sphere/scene.gltf");
-    const ref = useRef()
-    useFrame(() => {
-      ref.current.rotation.y = ref.current.rotation.x  += -0.003
-      
-      ref.current.rotation.z = Math.PI /-3.5 ;
-    })
-    return (
-      <>    
-      <mesh>
-        <primitive ref={ref}  position={[0, -10, -4]} object={gltf.scene} scale={4}  />  
-        </mesh>
-      </>
-    );
-  };
+ 
 
 
 
@@ -154,7 +139,7 @@ return (
     <Canvas dpr={[1, 2]} camera={{position:[0,0,10]}} >
     <Suspense fallback={null}>
       <Rig/>
-    <Energy/>
+   
     <TitleText />
           <HtmlText/>
           <CssText/>
