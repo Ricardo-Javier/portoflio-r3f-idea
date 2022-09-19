@@ -6,7 +6,6 @@ import { useSpring, animated } from '@react-spring/three'
 import { OrbitControls, Sparkles, Text} from "@react-three/drei";
 import {Environment} from '../Environment/Environment'
 import { useControl } from 'react-three-gui'
-// import { LayerMaterial, Depth, Noise } from 'lamina'           // GRAIN-GRADIENT SCENE
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 
@@ -129,11 +128,11 @@ function Caption({ children }) {
 
 // MOUSE & CAMERA MOVEMENT
 // ----------------------------
-function Rig({ v = new THREE.Vector3() }) {
-  return useFrame((state) => {
-    state.camera.position.lerp(v.set(state.mouse.x / 5, state.mouse.y / 5, 10), 0.05)
-  })
-};
+// function Rig({ v = new THREE.Vector3() }) {
+//   return useFrame((state) => {
+//     state.camera.position.lerp(v.set(state.mouse.x / 5, state.mouse.y / 5, 10), 0.05)
+//   })
+// };
 
 // ----------------------------
 

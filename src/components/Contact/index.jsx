@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState, Suspense } from 'react'
-import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'

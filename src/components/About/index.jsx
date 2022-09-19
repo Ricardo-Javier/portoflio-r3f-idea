@@ -1,11 +1,11 @@
-import { React, Suspense, useRef} from 'react'
+import { React, Suspense} from 'react'
 import './index.scss'
 import {Environment} from '../Environment/Environment'
 import { useControl } from 'react-three-gui'
-import { Canvas, useFrame, useThree, useLoader} from "@react-three/fiber";
-import { Text, TrackballControls, PerspectiveCamera, Html, Sparkles } from '@react-three/drei'
+import { Canvas, useFrame, useThree} from "@react-three/fiber";
+import { Text, TrackballControls} from '@react-three/drei'
 import { animated, useSpring } from '@react-spring/three'
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+
 import * as THREE from 'three'
 
 

@@ -1,11 +1,11 @@
-import {React, Suspense, useRef, useEffect}  from "react";
+import {React,}  from "react";
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/layout'
 import './App.scss'
-import { OrbitControls, Sparkles, Text, useCursor, GradientTexture, MeshDistortMaterial} from "@react-three/drei";
+
 
 
 
