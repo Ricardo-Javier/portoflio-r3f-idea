@@ -1,5 +1,4 @@
 import {React, Suspense, useRef } from "react";
-import * as THREE from 'three'
 import './index.scss'
 import { Canvas, useThree, useFrame, useLoader } from "@react-three/fiber";
 import { useSpring, animated } from '@react-spring/three'
